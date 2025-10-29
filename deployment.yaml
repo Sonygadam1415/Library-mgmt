@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: library-deployment
+  labels:
+    app: library
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: library
+  template:
+    metadata:
+      labels:
+        app: library
+    spec:
+      containers:
+      - name: library
+        image: sony1750812/library_mgmt:t6
+        ports:
+        - containerPort: 5001
