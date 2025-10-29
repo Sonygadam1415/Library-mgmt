@@ -9,6 +9,7 @@ library_books = [
     {"title": "Data Structures", "author": "Narasimha Karumanchi", "location": "Shelf A2"},
     {"title": "Computer Networks", "author": "Andrew S. Tanenbaum", "location": "Shelf C1"},
     {"title": "DevOps Handbook", "author": "Gene Kim", "location": "Shelf D4"},
+     {"title": "C Programming", "author": "Dennis Ritchie", "location": "Shelf A1"},
 ]
 
 @app.route('/')
