@@ -34,10 +34,10 @@ pipeline {
 
     post {
         success {
-            echo "✅ Library Management System successfully deployed!"
+            echo "Library Management System successfully deployed!"
         }
         failure {
-            echo "❌ Pipeline failed. Check Jenkins logs."
+            echo "Pipeline failed. Check Jenkins logs."
         }
     }
 }
